@@ -1,4 +1,4 @@
-console.log('a');
+import '@/css/main.scss';
 
 const sum = (a: number, b: number): number => {
   return a + b;
@@ -7,3 +7,5 @@ const sum = (a: number, b: number): number => {
 const num: number = sum(10, 5);
 
 console.log(num);
+
+
