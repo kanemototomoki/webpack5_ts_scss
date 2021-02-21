@@ -4,7 +4,7 @@ const mode = process.env.NODE_ENV || 'development';
 
 const config = {
   mode,
-  entry: './src/index.ts',
+  entry: './src/main.ts',
   devtool: 'inline-source-map',
   devServer: {
     contentBase: './dist',
