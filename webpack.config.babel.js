@@ -3,7 +3,7 @@ import path from 'path';
 const mode = process.env.NODE_ENV || 'development';
 
 const config = {
-  mode,
+  mode: mode,
   entry: './src/js/main.ts',
   output: {
     filename: 'js/bundle.js',
